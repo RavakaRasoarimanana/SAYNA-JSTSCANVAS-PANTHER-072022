@@ -76,6 +76,15 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     color: #FFFFFF;
+
+}
+
+button {
+    cursor: grab;
+}
+
+body:hover {
+    cursor: url('../images/Pages/logo_souris_BP2_blanc-modified.png'), auto
 }
 
 header {
@@ -86,16 +95,19 @@ header {
 }
 
 
-p{
+p {
     text-align: justify;
     font-family: "cantarel";
     font-size: 16px
 }
 
-.fini, #countdown {font-size: 32px;
-text-align: center;
-font-family: "cantarel";
-
+.fini,
+#countdown {
+    font-size: 32px;
+    text-align: center;
+    font-family: "cantarel";
+    text-transform: uppercase;
+    width: 100%;
 }
 
 h1,
@@ -470,7 +482,8 @@ input {
     height: auto;
 }
 
-.content3gauche, .content3droite {
+.content3gauche,
+.content3droite {
     margin: 5%;
 }
 
@@ -567,18 +580,33 @@ input {
     bottom: 5%;
 }
 
-#final  {display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;}
+#final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10%;
+    padding: 5%;
+    border-radius: 25%;
+    border-color: solid white;
+    background-color: #af92b8;
+}
 
-.rebours  {display: flex;
+.rebours {
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;}
-    
- .soon{display: flex;
+    flex-direction: row;
+}
+
+.soon {
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;}
-    .figma{width: 20%;}
+    flex-direction: column;
+}
+
+.figma {
+    width: 10%;
+    margin-bottom: 10%;
+}
